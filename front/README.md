@@ -1,0 +1,1 @@
+very basic front-end for explaining the idea (MVP), as well as containing the "useSolanaGame" hook file, which will eventually also be broken off into an npm package so developers can easily turn their web application into a gambling game powered by solana
