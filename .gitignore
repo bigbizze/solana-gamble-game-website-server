@@ -1,0 +1,7 @@
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/front/node_modules/
+/back/node_modules/
+/back/solana-game-contract-io/node_modules/
+/node_modules/

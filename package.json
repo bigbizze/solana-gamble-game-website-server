@@ -1,0 +1,12 @@
+{
+  "name": "solana-gamble-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "bigbizze",
+  "scripts": {
+    "initialize": "cd back && yarn && cd .. && cd front && yarn",
+    "start": "docker-compose up -d"
+  },
+  "dependencies": {}
+}

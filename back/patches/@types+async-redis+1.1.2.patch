@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/async-redis/index.d.ts b/node_modules/@types/async-redis/index.d.ts
+index 1fbb704..5383ec8 100644
+--- a/node_modules/@types/async-redis/index.d.ts
++++ b/node_modules/@types/async-redis/index.d.ts
+@@ -1071,7 +1071,7 @@ interface Commands {
+     ZSCAN: OverloadedKeyCommand<string, [string, string[]]>;
+ }
+ 
+-interface AsyncRedisClient extends Omitted, Commands {}
++export interface AsyncRedisClient extends Omitted, Commands {}
+ 
+ interface AsyncRedisConstructor {
+   new (port: number, host?: string, options?: ClientOpts): AsyncRedisClient;
